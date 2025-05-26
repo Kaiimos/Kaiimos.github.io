@@ -4,7 +4,7 @@ date: 2025-05-25 00:000 +0800
 categories: [Projects, Security]
 tags: [Honeypot, Networking]
 toc: true
-image: assets\img\posts\Honeypot\honeypot.png
+image: assets/img/posts/Honeypot/honeypot.png
 ---
 
 Dans ce projet, je mets en place un **honeypot** complet à l'aide de la solution open source **TPOTCE** développée par Telekom Security. Ce honeypot permet de **détecter, capturer et analyser des tentatives d'intrusion** en temps réel sur un serveur exposé à Internet.
@@ -21,7 +21,7 @@ Le HoneyPot est un All In One Multi Honeypot Platform hébergée sur un serveur 
 
 Le honeypot est déployé sur un serveur **Linux distant**, hébergé chez Linode.  
 Connexion en SSH 
-<img src="assets/img/posts/Honeypot/Serveur.png">
+<img src="assets/img/posts/Honeypot/Serveur.png" alt= "Serveur">
 
 ## 2. Mise à jour du serveur
 
@@ -97,14 +97,14 @@ cd tpotce
 ./install.sh
 ```
 J’ai choisi le mode standard (hive).
-<img src="assets/img/posts/Honeypot/Config.png">
+<img src="assets/img/posts/Honeypot/Config.png"alt= "Config">
 
 Pendant l'installation, on définit aussi :
 - Un mot de passe d’administration pour l’interface web
 - Le port SSH personnalisé (64295)
 - Le port web d'administration (64297)
 
-<img src="assets/img/posts/Honeypot/Install.png">
+<img src="assets/img/posts/Honeypot/Install.png" alt= "Install">
 
 ## 6. Redémarrage du serveur
 
@@ -114,8 +114,8 @@ Une fois le serveur redémarré, on peut accéder à l’interface via :
 https://<adresse ip>:64297
 Je me connecte avec les identifiants définis plus tôt :
 
-<img src="assets/img/posts/Honeypot/Web.png">
-<img src="assets/img/posts/Honeypot/tpot.png">
+<img src="assets/img/posts/Honeypot/Web.png" alt= "Web">
+<img src="assets/img/posts/Honeypot/tpot.png" alt= "tpot">
 
 
 Nous pouvons désormais accéder à plusieurs options, comme par exemple la carte des attaques :

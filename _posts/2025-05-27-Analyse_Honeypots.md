@@ -4,7 +4,7 @@ date: 2025-05-25 00:000 +0800
 categories: [Projects, Security]
 tags: [Honeypot, Networking]
 toc: true
-image: assets\img\posts\Analyse_Honeypot\honeypot-trap.png
+image: assets/img/posts/Analyse_Honeypot/honeypot-trap.png
 ---
 
 
