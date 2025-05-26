@@ -119,7 +119,7 @@ Je me connecte avec les identifiants définis plus tôt :
 
 
 Nous pouvons désormais accéder à plusieurs options, comme par exemple la carte des attaques :
-<img src="assets\img\posts\Honeypot\Mapattack.png">
+<img src="assets/img/posts/Honeypot/Mapattack.png" alt="Carte d’attaque Mapattack">
 
 ## 8. 🔒 À venir : Analyse des données collectées
 
