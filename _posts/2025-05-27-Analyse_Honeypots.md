@@ -108,7 +108,7 @@ Les fichiers téléchargés et exécutés ont pour objectif principal de :
 ---
 
 ## 5. 🔍 Conclusion:
-Les attaquants semblent utiliser des outils automatisés pour mener des attaques par Brute Force sur le port SSH, ciblant des identifiants courants. Une fois l'accès obtenu, ils exécutent des commandes pour collecter des informations système, installer des malwares et maintenir l'accès, notamment en remplaçant le service sshd légitime.
+Les attaquants semblent utiliser des outils automatisés pour mener des attaques par Brute Force sur le port SSH, ciblant des identifiants courants. Une fois l'accès obtenu, ils exécutent des commandes pour collecter des informations système, installer des malwares et maintenir l'accès, notamment en remplaçant le service sshd.
 L'exploitation de vulnérabilités connues, telles que celles de l'ensemble URGENT/11, permet aux attaquants d'exécuter du code à distance ou de provoquer des dénis de service, facilitant ainsi la compromission de dispositifs critiques sans interaction utilisateur.
 
 Les fichiers malveillants téléchargés, tels que des scripts shell (cat.sh) ou des exécutables ELF (sshd), ont pour objectif de maintenir l'accès au système, d'exécuter des actions malveillantes comme le minage de cryptomonnaies, ou d'alimenter  un reseau de Botnet.
