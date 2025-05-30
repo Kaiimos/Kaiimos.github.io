@@ -1,11 +1,12 @@
 ---
-title: "Tryhackme_Billing"
+title: "CTF Tryhackme_Billing"
 date: 2025-05-30 00:000 +0800
 categories: [Tryhackme, Easy]
 tags: [CTF, Web]
 toc: true
 image: assets/img/posts/Tryhackme/Billing/room_image.webp
 ---
+Billing est un challenge `capture the Flag` qui demande l’exploitation d’une vulnérabilité d’injection de commande présente dans l’application web MagnusBilling afin d’obtenir un accès initial à la machine. Ensuite, grâce à nos privilèges, nous parvenons à escalader nos droits jusqu’à obtenir un accès root.
 
 
 ## 1. Énumération
