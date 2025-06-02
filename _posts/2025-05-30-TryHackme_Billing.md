@@ -6,7 +6,7 @@ tags: [CTF, Web]
 toc: true
 image: assets/img/posts/Tryhackme/Billing/room_image.webp
 ---
-Billing est un challenge `capture the Flag` qui demande l’exploitation d’une vulnérabilité d’injection de commande présente dans l’application web MagnusBilling afin d’obtenir un accès initial à la machine. Ensuite, grâce à nos privilèges, nous parvenons à escalader nos droits jusqu’à obtenir un accès root.
+Billing est un challenge `capture the Flag` qui demande l’exploitation d’une vulnérabilité d’injection de commandes présente dans l’application web MagnusBilling afin d’obtenir un accès à la machine. Ensuite, grâce à l'exploitation de cette vulnérabilité, nous pouvons escalader nos  privilèges jusqu’à obtenir un accès root.
 
 
 ## 1. Énumération
@@ -31,10 +31,10 @@ nmap -sV -Pn 10.10.150.232
 - Port 80 (HTTP): Sert à héberger un serveur web.
 - Port 3306 (MySQL): Serveur de base de données.
 
-Étant donné que le service HTTP est souvent la surface d’attaque la plus exploitable pour un CTF débutants je choisis de commencer par analyser le service Web.
+Je décide de commencer par le port 80.
 
 ### Gobuster
-Je lance une recherche Gobuster pour trouver des répertoires cachés par Brute force, en utilisant une wordlist de répertoires connus.
+Je lance une recherche Gobuster pour trouver des répertoires cachés en utilisant une wordlist de répertoires connus.
 
 ```bash
 gobuster dir -u http://10.10.150.232 -w /usr/share/wordlists/dirb/common.txt
