@@ -4,7 +4,7 @@ date: 2025-06-04 00:000 +0800
 categories: [Rootme, Web Client]
 tags: [CTF, Web]
 toc: true
-image: assets\img\posts\Rootme\Rootme_WebClient-1-4\Rootme_logo.jpg
+image: assets/img/posts/Rootme/Rootme_WebClient-1-4/Rootme_logo.jpg
 ---
 
 Sur cette page, je détail la résolution des quatres premiers challenges **Root Me**,  catégorie **Web Client**  :
