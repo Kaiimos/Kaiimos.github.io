@@ -1,6 +1,6 @@
 ---
 title: "Challenge Rootme Web Client 8"
-date: 2025-06-09 00:000 +0800
+date: 2025-06-07 00:000 +0800
 categories: [Rootme, Web Client]
 tags: [CTF, Web]
 toc: true
@@ -63,5 +63,5 @@ En ouvrant ce fichier .map, on peut voir le code source.
 
 Pour la suite du challenge, il suffit de faire une recherche par mot-clé afin de trouver le flag.
 
-<img src="assets/img/posts/Rootme/Rootme_WebClient-8/flag8.png" alt= "Flag">
+<img src="assets/img/posts/Rootme/Rootme_WebClient-8/Flag8.png" alt= "Flag">
 ---
